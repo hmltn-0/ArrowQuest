@@ -1,0 +1,21 @@
+{
+  "name": "the-arrows-game",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "start": "electron .",
+    "lint": "eslint .",
+    "dev": "webpack serve --mode development"
+  },
+  "keywords": [
+    "Category Theory"
+  ],
+  "author": "Julius Hamilton",
+  "license": "Apache-2.0",
+  "description": "Development test for The Arrows Game",
+  "dependencies": {
+    "electron": "^31.2.1"
+  }
+}
